@@ -6,7 +6,7 @@ from collections import OrderedDict
 
 class tryminex:
     def __init__(self, apiKey='', secret=''):
-        self.base_url = 'http://testopenapi.tryminex.com/exchange-open-api'
+        self.base_url = 'http://openapi.tryminex.com/exchange-open-api'
         self.apiKey = apiKey
         self.secret = secret
 
